@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+.content{
+    background: rgb(71,71,71);
+background: radial-gradient(circle, rgb(77, 149, 177) 0%, rgba(148,191,233,1) 100%);
+    padding-top: 1%;
+    background
+}
+.navbar{
+    padding-top: 2%;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+hr{
+ opacity: 0;
+}
+h1{
+    font-size: 50px;
+    margin: 0% 0 2% 1%;
+    cursor: pointer;
+}
+
+h1 img{
+    margin-right: 10px;
+    top: 9px;
+    position: relative;
+    height: 50px;
+}
+
+h1 img:hover{
+    cursor: pointer;
+    scale: 1.1;
+    transition: 0.5s;
+}
+form{
+    justify-content: space-between;
+    display: flex;
+    width: 40%;
+    margin-top: 1.5%;
+    margin-left: 1%;
+}
+#search_field{
+    border: none;
+    background-color: rgb(0, 54, 131);
+    border-radius: 10px;
+    /* font-family: 'Courier New', Courier, monospace; */
+    color: rgb(249, 255, 240);
+    padding: 2%;
+    font-size: 20px;
+    width: 75%;
+}
+#submit{
+    border: none;
+    background-color: rgb(0, 54, 131);
+    color: white;
+    border-radius: 10px;
+    font-size: 20px;
+    width: 20%;
+}
+#submit:hover{
+    cursor: pointer;
+    background: linear-gradient(180deg, rgb(9, 85, 139) 0%, rgb(39, 139, 189) 35%, rgba(7, 90, 207, 0.619) 100%);;
+}
+
+.emoji{
+    cursor: pointer;
+    font-size: 300%;
+    width: 8rem;
+    max-width: 8rem;
+}
+.emoji:hover{
+    transition: 0.5s;
+    scale: 1.5;
+}
+.aliases{
+    padding-left: 10%;
+    text-transform: capitalize;
+    font-size: 125%;
+}
+.aliases:hover{
+    cursor: pointer;
+    color: rgb(0, 15, 177);
+
+}
+
+.desc{
+    font-size: 125%;
+}
+.desc:hover{
+    cursor: pointer;
+    color: rgb(0, 15, 177);
+}
+
+
+.desc::first-letter{
+    text-transform: uppercase;
+}
+
+table{
+    font-size: larger;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+tr, td{
+    padding-top: 1%;
+    padding-left: 2%;
+    padding-bottom: 1%;
+    /* border-top: 1px solid var(--gray);
+    border-bottom: 1px solid var(--gray); */
+}
+
+
